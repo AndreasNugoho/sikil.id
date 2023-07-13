@@ -1,0 +1,124 @@
+#root {
+  position: relative;
+  min-height: 100vh;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  text-align: center;
+}
+  
+h3 {
+  padding: 1rem 0;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+/* navbar */
+.nav-item {
+  margin-right: 0rem;
+}
+
+.searchbox {
+  margin: 1rem 0;
+}
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 {
+  font-size: 0.5rem;
+}
+
+.carousel img {
+  height: 250px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel a {
+  margin: 0 auto;
+}
+
+.form-select {
+  padding: 1rem 1rem;
+}
+
+.dropdown-toggle:hover .dropdown-menu {
+  display: block;
+}
+
+#form-select-rating {
+  padding: 1rem 1rem;
+}
+
+.product-img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+}
+
+.cart-product-img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.product-img-relate{
+  display: block;
+  object-fit: cover;
+  width: 50%;
+  height: 250px;
+}
+
+/* Desktop */
+@media only screen and (min-width: 768px) {
+  .searchbox {
+    margin: 0;
+  }
+
+  .form-select {
+    padding: 1rem 1.5rem;
+  }
+
+  .carousel-caption h2 {
+    font-size: 1.4rem;
+  }
+
+  .carousel img {
+    height: 300px;
+  }
+
+  .product-img {
+    height: 250px;
+  }
+
+  .cart-product-img {
+    height: 100px;
+  }
+}
